@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render dashboard correctly 1`] = `
+<div>
+  <Header />
+  <div
+    className="content-container"
+  >
+    <input
+      className="text-input"
+      onKeyPress={[Function]}
+      placeholder="Add Task & Press Enter"
+    />
+    <Connect(TodoList) />
+    <Component />
+  </div>
+</div>
+`;
