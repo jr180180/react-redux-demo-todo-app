@@ -18,11 +18,13 @@ export const DashboardPage = ({ addTodo, todosCount }) => {
         <div>
             <Header />
             <div className="content-container">
-                <input
-                    className='text-input'
-                    onKeyPress={handleEnterKeyPressed}
-                    placeholder='Add Task & Press Enter'
-                />
+                <div className="input-group">
+                    <input
+                        className='text-input'
+                        onKeyPress={handleEnterKeyPressed}
+                        placeholder='Add Task & Press Enter'
+                    />
+                </div>
                 <TodoList />
                 <Footer />
             </div>
